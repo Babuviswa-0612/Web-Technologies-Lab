@@ -1,27 +1,82 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Using meta tag and seting viewport,title,characterset -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-with , intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parts of Camera</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border: 3px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        area {
+            outline: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: #007bff;
+        }
+
+        area[title]:hover {
+            cursor: pointer;
+            filter: brightness(1.2);
+            transition: filter 0.3s ease-in-out;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #FFE000, #799F0C); /* Gradient Background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+         }
+    </style>
 </head>
 <body>
     <h1>Know about DSLR</h1>
     <h2>Parts of DSLR Camera</h2>
-    <img src="camera.jpg" alt="camera" usemap="#camera"> <!-- Using USEMAP for Image Maping -->
+    <img src="camera.jpg" alt="camera" usemap="#camera"> <!-- Image Mapping -->
     <map name="camera">
-        <!-- Declaring shape,coordinates,title,external link for the which is mapped -->
-        <area shape="rect" coords="269,32,392,81" title="Flash" href="https://www.eos-magazine.com/articles/flash/built-in-flash.html#:~:text=The%20built%2Din%20flash%20retracts,little%20tabs%20on%20each%20side.">
-        <area shape="poly" coords="307,421,327,419,344,419,357,421,349,455,335,497,312,500,285,494" tilte="Main mirror" href="https://www.adorama.com/alc/parts-of-a-camera/">
+        <!-- Adding area links -->
+        <area shape="rect" coords="269,32,392,81" title="Flash" href="https://www.eos-magazine.com/articles/flash/built-in-flash.html">
+        <area shape="poly" coords="307,421,327,419,344,419,357,421,349,455,335,497,312,500,285,494" title="Main mirror" href="https://www.adorama.com/alc/parts-of-a-camera/">
         <area shape="poly" coords="701,409,811,416,899,426,905,495,900,591,790,583,695,566" title="LCD Display" href="https://onlinemanual.nikonimglib.com/z7_z6/en/14_technical_notes_01.html">
-        <area shape="rect" coords="820,306,887,358" title="View Finder" href="https://www.reddit.com/r/photography/comments/zuhhnb/is_there_an_advantage_to_using_the_viewfinder/?rdt=48933">
+        <area shape="rect" coords="820,306,887,358" title="View Finder" href="https://www.reddit.com/r/photography/comments/zuhhnb/is_there_an_advantage_to_using_the_viewfinder/">
         <area shape="circle" coords="1001,538,49" title="Cross Key" href="https://www.youtube.com/watch?v=Gbd6n7hI8nI">
-        <area shape="poly" coords=" 398,489,423,493,421,472,414,453,403,433,396,422" title="CMOS Sensor" href="https://www.whatdigitalcamera.com/technology_guides/cmos-image-sensor-what-is-it-and-how-does-it-work-62586">
+        <area shape="poly" coords="398,489,423,493,421,472,414,453,403,433,396,422" title="CMOS Sensor" href="https://www.whatdigitalcamera.com/technology_guides/cmos-image-sensor-what-is-it-and-how-does-it-work-62586">
         <area shape="poly" coords="1065,488,1066,577,1157,601,1179,604,1185,592,1182,505,1163,496" title="Memory Card" href="https://en.wikipedia.org/wiki/SD_card">
         <area shape="poly" coords="368,200,398,205,413,208,426,209,418,227,384,223,355,210" title="Focusing Screen" href="https://en.wikipedia.org/wiki/Focusing_screen">
         <area shape="poly" coords="300,240,332,224,352,224,376,233,364,257,309,246" title="Light-Metering Sensor" href="https://capturetheatlas.com/light-metering/">
         <area shape="poly" coords="309,346,328,348,351,358,365,364,387,379,402,393,413,405,421,419,426,427,430,434,434,444,439,459,417,460" title="Penta Prism" href="https://www.eos-magazine.com/articles/eospedia/what-is/pentaprism.html">
     </map>
-    
-
 </body>
+</html>
