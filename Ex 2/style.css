@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #FFE000, #799F0C); /* Gradient Background */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff; /* Light color for contrast against the gradient */
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: left;
+    border-width: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #f4f4f4; /* Slightly lighter color for contrast */
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #444; /* Dark background for table headers */
+    color: #fff; /* White text for contrast */
+}
+
+td {
+    background-color: #fff;
+    color: #333; /* Standard text color for table cells */
+}
+
+/* List Styles */
+ul, ol {
+    margin: 20px 0;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+    color: #f4f4f4; /* Light color for list items */
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
