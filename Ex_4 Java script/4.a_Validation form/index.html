@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>📸 Filmmaking & Photography Workshop 🎥</h1>
+    <p>Join us to explore your creative journey!</p>
+    <form id="registrationForm" novalidate>
+      <!-- Personal Details -->
+      <div class="form-group">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" placeholder="Enter your full name" required>
+        <span class="error" id="nameError"></span>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" placeholder="example@domain.com" required>
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Contact Number *</label>
+        <input type="tel" id="phone" placeholder="1234567890" required>
+        <span class="error" id="phoneError"></span>
+      </div>
+
+      <!-- Workshop Preferences -->
+      <div class="form-group">
+        <label for="interest">Area of Interest *</label>
+        <select id="interest" required>
+          <option value="">Select an option</option>
+          <option value="photography">Photography</option>
+          <option value="cinematography">Cinematography</option>
+          <option value="editing">Video Editing</option>
+          <option value="direction">Direction</option>
+        </select>
+        <span class="error" id="interestError"></span>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="form-group">
+        <label for="portfolio">Portfolio Link</label>
+        <input type="url" id="portfolio" placeholder="https://example.com">
+        <span class="error" id="portfolioError"></span>
+      </div>
+
+      <!-- File Upload -->
+      <div class="form-group">
+        <label for="fileUpload">Upload Your Work (JPG, PNG, MP4, MOV) *</label>
+        <input type="file" id="fileUpload" required>
+        <span class="error" id="fileError"></span>
+      </div>
+
+      <!-- Motivation -->
+      <div class="form-group">
+        <label for="motivation">Why Do You Want to Join? *</label>
+        <textarea id="motivation" rows="5" placeholder="Tell us in 200 words or less" required></textarea>
+        <span class="error" id="motivationError"></span>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
