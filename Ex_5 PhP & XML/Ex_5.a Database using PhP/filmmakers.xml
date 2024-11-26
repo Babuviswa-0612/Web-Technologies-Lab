@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmmakers>
+    <filmmaker>
+        <name>Christopher Nolan</name>
+        <genre>Science Fiction</genre>
+        <notableWork>Inception</notableWork>
+    </filmmaker>
+    <filmmaker>
+        <name>Greta Gerwig</name>
+        <genre>Drama</genre>
+        <notableWork>Little Women</notableWork>
+    </filmmaker>
+    <filmmaker>
+        <name>Quentin Tarantino</name>
+        <genre>Crime</genre>
+        <notableWork>Pulp Fiction</notableWork>
+    </filmmaker>
+</filmmakers>
